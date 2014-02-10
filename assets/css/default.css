@@ -238,8 +238,18 @@ blockquote, pre, .message {
 }
 
 blockquote p {
+	font-style: oblique !important;
+	margin-left: 20px;
 	margin-top: 0px;
 	margin-bottom: 0px;
+}
+
+blockquote p:before {
+	content: "“";
+}
+
+blockquote p:after {
+	content: "”";
 }
 
 code, pre {
