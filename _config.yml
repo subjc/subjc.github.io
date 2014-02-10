@@ -1,0 +1,40 @@
+markdown:	kramdown
+pygments:	true
+
+permalink:	/:title
+
+title:		Subjective-C
+tagline:	'subjective reverse-engineering of iOS interfaces.'
+description:	'<strong>subjective</strong> reverse-engineering of iOS interfaces.'
+url:		http://subjc.com
+icon:   /assets/images/icon.png
+
+author:
+  name: Sam Page
+  url: http://twitter.com/sampage/
+
+social:
+  - icon:	twitter
+    url:	https://twitter.com/subjc
+    desc:	Follow Subjective-C on twitter
+
+  - icon:	github
+    url:	https://github.com/subjc
+    desc:	Fork me on github
+
+  - icon:	feed
+    url:	http://subjc/atom.xml
+    desc:	Subscribe to the feed
+
+attribution:
+  jekyll: 
+    desc: Jekyll
+    url: http://jekyllrb.com/
+
+  thinny: 
+    desc: Thinny
+    url: http://camporez.com/blog/thinny-2/
+
+license:
+  type: Creative Commons BY-NC
+  url: http://creativecommons.org/licenses/by-nc/3.0/

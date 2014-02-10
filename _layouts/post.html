@@ -1,0 +1,38 @@
+---
+layout: default
+article: true
+---
+
+<header class="clean" style="background-image: url({% if page.image %}{{ page.image }}{% else %}{{ site.cover }}{% endif %});{% if page.background_position %} background-position: {{ page.background_position }};{% endif %}height: 100%;">
+	{% if page.video %}
+		<video id="bg-video" preload="auto" autoplay="true" loop="loop" muted="muted" volume="0">
+			{% if page.video_webm %}<source src="{{ page.video_webm }}" type="video/webm">{% endif %}
+			{% if page.video_ogv %}<source src="{{ page.video_ogv }}" type="video/ogg ogv">{% endif %}
+			{% if page.video_mp4 %}<source src="{{ page.video_mp4 }}" type="video/mp4">{% endif %}
+		</video>
+		{% if page.video_pattern %}<div id="bg-video-pattern"></div>{% endif %}
+	{% endif %}
+	{% include top.html %}
+	<div id="home-post">
+		<a href="{{ site.url }}">
+			<img src="{{ site.icon }}" class="site-icon">
+		</a>
+	</div>
+	<div id="post-info">
+		<h1>{{ page.title }}</h1>
+		{% if page.description %}
+			<h2>{{ page.description }}</h2>
+		{% endif %}
+	</div>
+	<div id="nav-icon" style="bottom: 60px;">
+		<a data-scroll data-speed="600" data-easing="easeInOutQuint" data-url="true" href="#article"><span class="genericon genericon-expand"></span></a>
+	</div>
+</header>
+<div id="article">
+	{{ content }}
+</div>
+<footer class="clean" style="background-image: url({{ site.cover }}); background-position: bottom; height: 60px;">
+	<p class="license">Built with <a href="{{ site.attribution.jekyll.url }}">{{ site.attribution.jekyll.desc }}</a> and <a href="{{ site.attribution.thinny.url }}">{{site.attribution.thinny.desc}}</a>. Released under <a href="{{ site.license.url }}">{{ site.license.type }}</a>.</p>
+</footer>
+<script src="/assets/js/smooth-scroll.js"></script>
+</div>
