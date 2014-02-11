@@ -6,7 +6,7 @@ layout: default
 	{% include top.html %}
 	<div id="home-title">
 		<a href="{{ site.url }}">
-			<img src="{{ site.icon }}" class="site-icon-page">
+			<img src="{{ site.icon }}" class="site-icon">
 		</a>
 	</div>
 	<div id="post-info" style="bottom: 30px; text-align: center; line-height: 45px;">
@@ -16,6 +16,4 @@ layout: default
 <div id="article">
 	{{ content }}
 </div>
-<footer class="clean" style="background-image: url({{ site.cover }}); background-position: bottom; height: 60px;">
-	<p class="license">Built with <a href="{{ site.attribution.jekyll.url }}">{{ site.attribution.jekyll.desc }}</a> and <a href="{{ site.attribution.thinny.url }}">{{site.attribution.thinny.desc}}</a>. Released under <a href="{{ site.license.url }}">{{ site.license.type }}</a>.</p>
-</footer>
+{% include footer.html %}

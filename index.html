@@ -3,7 +3,7 @@ layout: default
 title: Home
 ---
 
-<header class="clean" style="height: 350px; background-image: url({{ site.cover }});">
+<header class="clean" style="background-image: url({{ site.cover }});">
 	{% include top.html %}
 	<div id="home-title">
 		<a href="{{ site.url }}">
@@ -23,6 +23,4 @@ title: Home
 		<br>
 	{% endfor %}
 </div>
-<footer class="clean" style="background-image: url({{ site.cover }}); background-position: bottom; height: 60px;">
-	<p class="license">Written by <a href="{{ site.author.url }}">{{ site.author.name }}</a>. Built with <a href="{{ site.attribution.jekyll.url }}">{{ site.attribution.jekyll.desc }}</a> and <a href="{{ site.attribution.thinny.url }}">{{site.attribution.thinny.desc}}</a>. Released under <a href="{{ site.license.url }}">{{ site.license.type }}</a>.</p>
-</footer>
+{% include footer.html %}

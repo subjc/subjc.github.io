@@ -1,0 +1,8 @@
+<footer class="clean" style="background-image: url({{ site.cover }}); background-position: bottom; height: 100px;">
+	<p class="license">Written by <a href="{{ site.author.url }}">{{ site.author.name }}</a>. Built with <a href="{{ site.attribution.jekyll.url }}">{{ site.attribution.jekyll.desc }}</a> and <a href="{{ site.attribution.thinny.url }}">{{site.attribution.thinny.desc}}</a>. Released under <a href="{{ site.license.url }}">{{ site.license.type }}</a>.</p>
+	<div class="social-links">
+		{% for social in site.social %}
+			<a href="{{ social.url }}" target="_blank" title="{{ social.desc }}"><span class="genericon genericon-{{ social.icon }}"></span></a>
+		{% endfor %}
+	</div>
+</footer>
