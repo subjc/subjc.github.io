@@ -4,7 +4,7 @@ pygments:	true
 permalink:	/:title
 
 title:		Subjective-C
-tagline:	'subjective reverse-engineering of iOS interfaces.'
+tagline:	'a study of innovative iOS interfaces'
 description:	'<strong>Subjective-C</strong> is a study of innovative iOS interfaces.'
 url:		http://subjc.com
 icon:   /assets/images/icon.png
