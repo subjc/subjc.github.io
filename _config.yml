@@ -22,6 +22,11 @@ social:
     url:	https://github.com/subjc
     desc:	Fork me on github
 
+  - icon: mail
+    url: mailto:sam@subjc.com
+    desc: sam@subjc.com 
+
+
   - icon:	feed
     url:	http://subjc.com/atom.xml
     desc:	Subscribe to the feed
