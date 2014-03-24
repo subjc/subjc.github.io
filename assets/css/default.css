@@ -168,6 +168,7 @@ img.site-icon-small {
 	font-style: normal;
 	font-size:18px;
 	line-height: 1.5;
+	word-wrap: break-word;
 }
 
 table {
