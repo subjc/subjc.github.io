@@ -1,13 +1,13 @@
 @import url(default.css);
 
-#post-info {
+#post-info, #announcement-info {
 	width: 800px;
 	left: 50%;
 	margin-left: -400px;
 	bottom: 100px;
 }
 
-#post-info h1 {
+#post-info h1, #announcement-info h1 {
 	font-weight: bold;
 	font-size: 44px;
 	line-height: 44px;

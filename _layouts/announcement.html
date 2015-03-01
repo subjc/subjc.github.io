@@ -1,5 +1,6 @@
 ---
 layout: default
+article: true
 ---
 
 <header class="clean" style="background-image: url({{ site.cover }});">
@@ -9,11 +10,15 @@ layout: default
 			<img src="{{ site.icon }}" class="site-icon">
 		</a>
 	</div>
-	<div id="post-info" style="bottom: 30px; text-align: center; line-height: 45px;">
+	<div id="announcement-info">
 		<h1>{{ page.title }}</h1>
+		{% if page.description %}
+			<h2>{{ page.description }}</h2>
+		{% endif %}
 	</div>
 </header>
 <div id="article">
 	{{ content }}
 </div>
 {% include footer.html %}
+</div>

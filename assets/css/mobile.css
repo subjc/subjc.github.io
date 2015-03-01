@@ -36,7 +36,11 @@ img.site-icon {
 	font-weight: bold;
 }
 
-#post-info {
+#announcement-info {
+	top: 150px;
+}
+
+#post-info, #announcement-info {
 	width: 90%;
 	left: 5%;
 	margin-left: 0px;
@@ -46,7 +50,16 @@ img.site-icon {
 #post-info h1 {
 	font-weight: bold;
 	font-size: 26px;
-	line-height: 26px;
+}
+
+#announcement-info h1  {
+	font-size: 24px;
+	margin-bottom: 0px;
+}
+
+#announcement-info h2 {
+	font-size: 18px;
+	margin-top: 2px;
 }
 
 #home-title {

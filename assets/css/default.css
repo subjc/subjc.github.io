@@ -72,37 +72,60 @@ video {
   height: auto;
 }
 
-#post-info {
+#post-info, #announcement-info {
 	font-size: 14px;
 	position: absolute;
 	z-index: 2;
 }
 
-#post-info h1 {
+#post-info h1, #announcement-info h1 {
 	color: #fff;
 	font-weight: bold;
 	margin: 15px 0px;
+}
+
+#post-info h2, #announcement-info h2 {
+	color: #fff;
+	opacity: 0.75;
+	font-style: oblique;
+	font-size: 24px;
+	line-height: 24px;
+	font-weight: lighter;
+	margin: 15px 0px;
+}
+
+#post-info h3, #announcement-info h3 {
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 18px;
+	margin-bottom: -10px;
+}
+
+#post-info h1 {
+	color: #fff;
 	text-shadow: 2px 2px #666;
 }
 
 #post-info h2 {
 	color: #fff;
 	text-shadow: 2px 2px #666;
-	opacity: 0.75;
-	font-style: oblique;
-	font-size: 24px;
-	line-height: 24px;
-	text-align: justify;
-	font-weight: lighter;
-	margin: 15px 0px;
 }
 
 #post-info h3 {
 	color: #fff;
 	text-shadow: 2px 2px #666;
-	text-transform: uppercase;
-	font-size: 18px;
-	margin-bottom: -10px;
+}
+
+#announcement-info {
+	top: 220px;
+}
+
+#announcement-info h1 {
+	color: #ff8686;
+}
+
+#announcement-info h2 {
+	color: #78B9FD;
 }
 
 #home-title {
@@ -275,7 +298,7 @@ pre code {
 }
 
 .clean {
-	height: 350px;
+	height: 300px;
 	color: #86c5ff;
 	background-color: #fff;
 }
