@@ -1,5 +1,5 @@
 markdown:	kramdown
-pygments:	true
+highlighter:	pygments
 
 permalink:	/:title
 
@@ -9,9 +9,13 @@ description:	'<strong>Subjective-C</strong> is a study of innovative iOS interfa
 url:		http://subjc.com
 icon:   /assets/images/icon.png
 
-author:
-  name: Sam Page
-  url: http://twitter.com/sampage/
+authors:
+  sam:
+    name: Sam Page
+    url: http://twitter.com/sampage/
+  matt:
+    name: Matt Delves
+    url: http://twitter.com/mattdelves/
 
 social:
   - icon:	twitter
@@ -38,7 +42,7 @@ attribution:
 
   thinny: 
     desc: Thinny
-    url: http://camporez.com/blog/thinny-2/
+    url: http://camporez.github.io/blog/thinny-2/
 
 license:
   type: Creative Commons BY-NC
